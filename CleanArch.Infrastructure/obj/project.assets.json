@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CleanArch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CleanArch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanArch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArch.Domain/CleanArch.Domain.csproj",
+      "msbuildProject": "../CleanArch.Domain/CleanArch.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CleanArch.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/isaac-kosmos/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
+      "projectName": "CleanArch.Infrastructure",
+      "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
+      "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
+      "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
+              "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
