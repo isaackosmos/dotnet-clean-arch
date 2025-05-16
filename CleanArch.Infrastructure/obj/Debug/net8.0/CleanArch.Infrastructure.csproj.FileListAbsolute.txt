@@ -1,0 +1,17 @@
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/bin/Debug/net8.0/CleanArch.Infrastructure.deps.json
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/bin/Debug/net8.0/CleanArch.Infrastructure.runtimeconfig.json
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/bin/Debug/net8.0/CleanArch.Infrastructure.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/bin/Debug/net8.0/CleanArch.Infrastructure.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/bin/Debug/net8.0/CleanArch.Domain.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/bin/Debug/net8.0/CleanArch.Domain.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.csproj.AssemblyReference.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.AssemblyInfoInputs.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.AssemblyInfo.cs
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.csproj.CoreCompileInputs.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.csproj.CopyComplete
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/refint/CleanArch.Infrastructure.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/CleanArch.Infrastructure.genruntimeconfig.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/Debug/net8.0/ref/CleanArch.Infrastructure.dll

@@ -1,0 +1,11 @@
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/bin/Debug/net8.0/CleanArch.Domain.deps.json
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/bin/Debug/net8.0/CleanArch.Domain.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/bin/Debug/net8.0/CleanArch.Domain.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/CleanArch.Domain.AssemblyInfoInputs.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/CleanArch.Domain.AssemblyInfo.cs
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/CleanArch.Domain.csproj.CoreCompileInputs.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/CleanArch.Domain.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/refint/CleanArch.Domain.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/CleanArch.Domain.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/Debug/net8.0/ref/CleanArch.Domain.dll

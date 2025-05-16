@@ -1,0 +1,15 @@
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/bin/Debug/net8.0/CleanArch.Application.deps.json
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/bin/Debug/net8.0/CleanArch.Application.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/bin/Debug/net8.0/CleanArch.Application.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/bin/Debug/net8.0/CleanArch.Domain.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/bin/Debug/net8.0/CleanArch.Domain.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.csproj.AssemblyReference.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.AssemblyInfoInputs.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.AssemblyInfo.cs
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.csproj.CoreCompileInputs.cache
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.csproj.CopyComplete
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/refint/CleanArch.Application.dll
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/CleanArch.Application.pdb
+/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/Debug/net8.0/ref/CleanArch.Application.dll

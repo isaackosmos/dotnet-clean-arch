@@ -4,6 +4,63 @@
     "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj": {}
   },
   "projects": {
+    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj",
+        "projectName": "CleanArch.Application",
+        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj",
+        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
+        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
+                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +69,69 @@
         "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj",
         "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
         "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj": {
+                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj"
+              },
+              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
+                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+              },
+              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj": {
+                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj",
+        "projectName": "CleanArch.Domain",
+        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj",
+        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
+        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
@@ -37,6 +157,81 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
+        "projectName": "CleanArch.Infrastructure",
+        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
+        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
+        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
+                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
