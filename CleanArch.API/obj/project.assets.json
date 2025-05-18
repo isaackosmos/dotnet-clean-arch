@@ -1048,7 +1048,8 @@
           "CleanArch.Domain": "1.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
-          "MediatR": "12.0.2"
+          "MediatR": "12.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
           "bin/placeholder/CleanArch.Application.dll": {}
