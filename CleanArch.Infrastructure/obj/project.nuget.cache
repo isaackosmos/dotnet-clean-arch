@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rkmHeV1E5FQ=",
+  "dgSpecHash": "2L8HxJNJYy0=",
   "success": true,
   "projectFilePath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/isaackosmos/.nuget/packages/dapper/2.1.28/dapper.2.1.28.nupkg.sha512",
     "/Users/isaackosmos/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/isaackosmos/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/isaackosmos/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

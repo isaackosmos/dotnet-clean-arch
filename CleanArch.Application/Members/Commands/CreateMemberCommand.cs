@@ -4,28 +4,15 @@ using MediatR;
 
 namespace CleanArch.Application.Members.Commands;
 
-public class CreateMemberCommand : IRequest<Member>
+public class CreateMemberCommand : MemberCommandBase
 {
-    public string? FirstName { get; set; }
-    public string? LastName { get; set; }
-    public string? Gender { get; set; }
-    public string? Email { get; set; }
-    public bool? IsActive { get; set; }
-    
-    public class CreateMemberCommandHandler : IRequestHandler<CreateMemberCommand, Member>
+    public class CreateMemberCommandHandler(IUnitOfWork unitOfWork) : IRequestHandler<CreateMemberCommand, Member>
     {
-        private IUnitOfWork _unitOfWork;
-
-        public CreateMemberCommandHandler(IUnitOfWork unitOfWork)
-        {
-            _unitOfWork = unitOfWork;
-        }
-
         public async Task<Member> Handle(CreateMemberCommand request, CancellationToken cancellationToken)
         {
             var member = new Member(request.FirstName, request.LastName, request.Gender, request.Email, request.IsActive);
-            await _unitOfWork.MemberRepository.AddMember(member);
-            await _unitOfWork.CommitAsync();
+            await unitOfWork.MemberRepository.AddMember(member);
+            await unitOfWork.CommitAsync();
             return member;
         }
     }

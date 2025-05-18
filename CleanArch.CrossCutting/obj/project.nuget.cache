@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6kaTpaHTI8I=",
+  "dgSpecHash": "Rq2h57XX0j0=",
   "success": true,
   "projectFilePath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj",
   "expectedPackageFiles": [
+    "/Users/isaackosmos/.nuget/packages/dapper/2.1.28/dapper.2.1.28.nupkg.sha512",
     "/Users/isaackosmos/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/isaackosmos/.nuget/packages/mediatr/12.1.0/mediatr.12.1.0.nupkg.sha512",
     "/Users/isaackosmos/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
