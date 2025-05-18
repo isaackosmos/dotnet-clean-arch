@@ -556,7 +556,10 @@
       "System.Threading.Channels/6.0.0": {},
       "CleanArch.Domain/1.0.0": {
         "runtime": {
-          "CleanArch.Domain.dll": {}
+          "CleanArch.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

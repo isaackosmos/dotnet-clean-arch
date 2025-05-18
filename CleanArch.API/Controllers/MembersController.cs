@@ -1,4 +1,7 @@
+using CleanArch.Application.Members.Commands;
 using CleanArch.Domain.Abstract;
+using CleanArch.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArch.API.Controllers;
@@ -7,10 +10,12 @@ namespace CleanArch.API.Controllers;
 [ApiController]
 public class MembersController : ControllerBase
 {
+    private readonly IMediator _mediator;
     private readonly IUnitOfWork _unitOfWork;
 
-    public MembersController(IUnitOfWork unitOfWork)
+    public MembersController(IMediator mediator, IUnitOfWork unitOfWork)
     {
+        _mediator = mediator;
         _unitOfWork = unitOfWork;
     }
 
@@ -26,5 +31,42 @@ public class MembersController : ControllerBase
     {
         var member = await _unitOfWork.MemberRepository.GetMemberById(id);
         return Ok(member);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateMember(CreateMemberCommand command)
+    {
+        var member = await _mediator.Send(command);
+        return CreatedAtAction(nameof(GetMember), new { id = member.Id }, member);
+    }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateMember(UpdateMemberCommand command)
+    {
+        try
+        {
+            var member = await _mediator.Send(command);
+            return Ok(member);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return NotFound();
+        }
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteMember(DeleteMemberCommand command)
+    {
+        try
+        {
+            await _mediator.Send(command);
+            return NoContent();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return NotFound();
+        }
     }
 }

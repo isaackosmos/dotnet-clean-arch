@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj": {}
+    "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj": {}
   },
   "projects": {
-    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj": {
+    "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/CleanArch.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj",
+        "projectUniqueName": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/CleanArch.Application.csproj",
         "projectName": "CleanArch.Application",
-        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj",
-        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
-        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/obj/",
+        "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/CleanArch.Application.csproj",
+        "packagesPath": "/Users/isaackosmos/.nuget/packages/",
+        "outputPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+          "/Users/isaackosmos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
-                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+              "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj": {
+                "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj"
               }
             }
           }
@@ -36,11 +36,23 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,26 +64,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj": {
+    "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj",
+        "projectUniqueName": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj",
         "projectName": "CleanArch.CrossCutting",
-        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj",
-        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
-        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.CrossCutting/obj/",
+        "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.CrossCutting/CleanArch.CrossCutting.csproj",
+        "packagesPath": "/Users/isaackosmos/.nuget/packages/",
+        "outputPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+          "/Users/isaackosmos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -83,14 +105,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj": {
-                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj"
+              "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/CleanArch.Application.csproj": {
+                "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/CleanArch.Application.csproj"
               },
-              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
-                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+              "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj": {
+                "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj"
               },
-              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj": {
-                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj"
+              "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj": {
+                "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj"
               }
             }
           }
@@ -99,7 +121,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -115,26 +143,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
+    "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj",
+        "projectUniqueName": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj",
         "projectName": "CleanArch.Domain",
-        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj",
-        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
-        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/obj/",
+        "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj",
+        "packagesPath": "/Users/isaackosmos/.nuget/packages/",
+        "outputPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+          "/Users/isaackosmos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -152,7 +190,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -168,26 +212,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj": {
+    "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
+        "projectUniqueName": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
         "projectName": "CleanArch.Infrastructure",
-        "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
-        "packagesPath": "/home/isaac-kosmos/.nuget/packages/",
-        "outputPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Infrastructure/obj/",
+        "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/CleanArch.Infrastructure.csproj",
+        "packagesPath": "/Users/isaackosmos/.nuget/packages/",
+        "outputPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/isaac-kosmos/.nuget/NuGet/NuGet.Config"
+          "/Users/isaackosmos/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -199,8 +253,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj": {
-                "projectPath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Domain/CleanArch.Domain.csproj"
+              "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj": {
+                "projectPath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Domain/CleanArch.Domain.csproj"
               }
             }
           }
@@ -209,7 +263,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -243,12 +303,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

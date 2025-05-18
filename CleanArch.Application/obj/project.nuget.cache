@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "6fg5DDpTTQc25tkP5pPvRteht7Y/uMS5hw2b3lmwni3jNkYkjRZ0Ww6AlqHWemm6fAq4mMfdDe01TVAMku2D8Q==",
+  "dgSpecHash": "u4LfQAdoKg0=",
   "success": true,
-  "projectFilePath": "/home/isaac-kosmos/projects/dotnet/CleanArch/CleanArch.Application/CleanArch.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.Application/CleanArch.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/isaackosmos/.nuget/packages/mediatr/12.1.0/mediatr.12.1.0.nupkg.sha512",
+    "/Users/isaackosmos/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/isaackosmos/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/isaackosmos/.nuget/packages/microsoft.netcore.app.ref/8.0.16/microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "/Users/isaackosmos/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.16/microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "CleanArch.Application depends on MediatR (>= 12.0.2) but MediatR 12.0.2 was not found. MediatR 12.1.0 was resolved instead.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

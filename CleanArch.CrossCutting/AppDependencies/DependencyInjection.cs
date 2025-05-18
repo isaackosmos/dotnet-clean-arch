@@ -16,6 +16,8 @@ public static class DependencyInjection
             options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
         services.AddScoped<IMemberRepository, MemberRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+        var myHandlers = AppDomain.CurrentDomain.Load("CleanArch.Application");
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(myHandlers));
         return services;
     }
 }
