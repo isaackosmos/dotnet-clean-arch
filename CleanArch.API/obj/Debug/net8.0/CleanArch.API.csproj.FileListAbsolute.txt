@@ -226,3 +226,5 @@
 /Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.API/obj/Debug/net8.0/CleanArch.API.genruntimeconfig.cache
 /Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.API/obj/Debug/net8.0/ref/CleanArch.API.dll
 /Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.API/bin/Debug/net8.0/Dapper.dll
+/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.API/bin/Debug/net8.0/FluentValidation.dll
+/Users/isaackosmos/projects/dotnet-clean-arch/CleanArch.API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll

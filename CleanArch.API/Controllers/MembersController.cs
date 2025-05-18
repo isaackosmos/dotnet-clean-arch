@@ -21,17 +21,9 @@ public class MembersController(IMediator mediator) : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetMember([FromRoute] int id)
     {
-        try
-        {
-            var query = new GetMemberByIdQuery { Id = id };
-            var member = await mediator.Send(query);
-            return Ok(member);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return NotFound(e.Message);
-        }
+        var query = new GetMemberByIdQuery { Id = id };
+        var member = await mediator.Send(query);
+        return Ok(member);
     }
 
     [HttpPost]
@@ -44,32 +36,16 @@ public class MembersController(IMediator mediator) : ControllerBase
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateMember([FromRoute] int id)
     {
-        try
-        {
-            var command = new UpdateMemberCommand {Id = id};
-            var member = await mediator.Send(command);
-            return Ok(member);
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return NotFound(e.Message);
-        }
+        var command = new UpdateMemberCommand { Id = id };
+        var member = await mediator.Send(command);
+        return Ok(member);
     }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteMember([FromRoute] int id)
     {
-        try
-        {
-            var command = new DeleteMemberCommand { Id = id };
-            await mediator.Send(command);
-            return NoContent();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            return NotFound(e.Message);
-        }
+        var command = new DeleteMemberCommand { Id = id };
+        await mediator.Send(command);
+        return NoContent();
     }
 }

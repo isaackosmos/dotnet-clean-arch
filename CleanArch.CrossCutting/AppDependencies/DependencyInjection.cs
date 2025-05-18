@@ -1,7 +1,10 @@
 using System.Data;
+using System.Reflection;
+using CleanArch.Application.Members.Commands.Validators;
 using CleanArch.Domain.Abstract;
 using CleanArch.Infrastructure.Context;
 using CleanArch.Infrastructure.Repositories;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,7 +29,12 @@ public static class DependencyInjection
         services.AddScoped<IMemberDapperRepository, MemberDapperRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         var myHandlers = AppDomain.CurrentDomain.Load("CleanArch.Application");
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(myHandlers));
+        services.AddMediatR(cfg =>
+        {
+            cfg.RegisterServicesFromAssemblies(myHandlers);
+            cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));
+        });
+        services.AddValidatorsFromAssembly(Assembly.Load("CleanArch.Application"));
         return services;
     }
 }

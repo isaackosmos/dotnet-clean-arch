@@ -1,5 +1,7 @@
+using CleanArch.Application.Members.Commands.Validators;
 using CleanArch.Domain.Abstract;
 using CleanArch.Domain.Entities;
+using FluentValidation;
 using MediatR;
 
 namespace CleanArch.Application.Members.Commands;
